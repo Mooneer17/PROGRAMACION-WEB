@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide" data-status="active">A</div>
+            <div class="slide" data-status="inactive">B</div>
+            <div class="slide" data-status="inactive">C</div>
+            <div class="slide" data-status="inactive">D</div>
+            <div class="slide" data-status="inactive">E</div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">P;</button>
+        <button class="next" onclick="moveSlide(1)">N;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
